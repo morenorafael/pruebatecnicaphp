@@ -1,0 +1,26 @@
+{
+    "name": "morenorafael/prueba-tecnica-php-rafaelmoreno",
+    "description": "Prueba tecnica PHP Rafael Moreno",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Morenorafael\\PruebaTecnicaPhpRafaelmoreno\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Moreno",
+            "email": "alejandro8924@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^11.4@dev"
+    }
+}
